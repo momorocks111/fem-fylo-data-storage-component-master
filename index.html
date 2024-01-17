@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backround-img">
+      <img src="images/bg-mobile.png" alt="Background" class="mobile-img" />
+      <img
+        src="images/bg-desktop.png"
+        alt="Desktop Background"
+        class="desktop-img"
+      />
+    </div>
+
+    <main class="main">
+      <section class="fylo-section">
+        <div class="container">
+          <div class="links-container">
+            <img src="images/logo.svg" alt="Fylo" class="logo-img web-logo" />
+            <div class="img-container">
+              <ul class="img-list">
+                <li class="img-item">
+                  <img
+                    src="images/icon-document.svg"
+                    alt="Document"
+                    class="document-img"
+                  />
+                </li>
+
+                <li class="img-item">
+                  <img
+                    src="images/icon-folder.svg"
+                    alt="Folder"
+                    class="folder-img"
+                  />
+                </li>
+
+                <li class="img-item">
+                  <img
+                    src="images/icon-upload.svg"
+                    alt="Upload"
+                    class="upload-img"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="info-container">
+            <p class="info-text">You’ve used <b>815 GB</b> of your storage</p>
+            <div class="progress-container">
+              <div class="total-progress">
+                <div class="current-progress">
+                  <div class="end-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="amount-container">
+              <p class="zero-amount">0 GB</p>
+              <p class="thousand-amount">1000 GB</p>
+            </div>
+
+            <div class="amount-left">
+              <h1 class="number-amount">185</h1>
+              <span class="giga-left">GB Left</span>
+              <div class="half-triangle"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="forced">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Muhammad Desai</a>.
+      </div>
+    </footer>
+  </body>
+</html>
